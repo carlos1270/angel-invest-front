@@ -1,0 +1,101 @@
+:root {
+    --primary-color: rgb(41, 123, 129);
+    --second-color: rgb(77, 99, 95);
+    --color-nav-link: white;
+    --color-nav-link-hover: rgb(187, 187, 187);
+    --color-backgroud: rgb(236, 236, 236);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif !important;
+    background-color: var(--color-backgroud);
+}
+
+.nav-color {
+    background-color: var(--primary-color) !important;
+}
+
+.nav-link-logo {
+    color: var(--color-nav-link) !important;
+}
+
+.nav-link {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: var(--color-nav-link) !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    transition: 0.3s;
+    color: var(--color-nav-link-hover) !important;
+}
+
+#container-home {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+#home-box {
+    text-align: center;
+}
+
+#home-text {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+#row-startups {
+    background-color: white;
+}
+
+#row-cards-startups {
+    background-color: var(--second-color);
+}
+
+.card-img-top {
+    height: 150px;
+}
+
+.card-home {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 0px;
+}
+
+.card-home .titles-pitch {
+    position: relative;
+    bottom: 40px;
+    margin-bottom: -30px;
+}
+
+.card-home .title-startup {
+    font-size: 24px;
+    padding-left: 13px;
+}
+
+.card-home .name-startup {
+    padding-left: 80px;
+}
+
+.card-home .area-startup {
+    position: relative;
+    margin-top: -22px;
+    top: 35px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.card-home .area-startup .span-area-startup {
+    background-color: green;
+}  
+/* .teste {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+#caixa {
+    margin: 20px;
+    padding: 20px;
+} */

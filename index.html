@@ -5,8 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="bootstrap-5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-color">
+        <div class="container">
+            <a class="navbar-brand nav-link-logo" href="#">Angel Invest</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Investidores-anjo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Entrar</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="container-home" class="container">
+        <div id="home-box" class="row justify-content-center">
+            <div class="col-md-12">
+                <h2>Angel Invest</h2>
+                <div id="home-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed eleifend risus, ac congue nibh. 
+                    Pellentesque aliquam lobortis erat a elementum. Nullam hendrerit commodo varius. 
+                    Etiam purus lacus, rutrum id tellus a, vehicula tincidunt dui.  Sed a molestie orci. 
+                    Nunc luctus velit vitae metus molestie malesuada.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div id="row-startups" class="row">
+            <div class="col-md-12">
+                <h6>Startups</h6>
+            </div>
+        </div>
+        <div id="row-cards-startups" class="row">
+            <div class="col-md-4">
+                <div class="card card-home" style="width: 24rem;">
+                    <div>
+                        <div class="area-startup" class="row">
+                            <div class="col-md-10"></div>
+                            <div class="span-area-startup" class="col-md-2">
+                                <span>Software</span>
+                            </div>
+                        </div>
+                        <img src="img/01.png" class="card-img-top" alt="video da startup">
+                        <div class="titles-pitch" class="row">
+                            <div class="col-md-12">
+                                <span class="title-startup">Titulo do pitch</span>
+                                <span class="name-startup">Nome da startup</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. <a href="#">Go somewhere</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="bootstrap-5.1.3/js/bootstrap.js"></script>
 </body>
 </html>
