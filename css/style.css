@@ -1,219 +1,503 @@
 :root {
-    --primary-color: rgb(41, 123, 129);
-    --secondary-color: rgb(77, 99, 95);
-    --ternary-color: rgb(3, 64, 90);
-    --color-nav-link: white;
-    --color-nav-link-hover: rgb(187, 187, 187);
-    --color-backgroud: rgb(236, 236, 236);
-    --color-img-backgroud: rgb(59, 146, 184);
-    --color-background-create-user: rgb(217, 217, 217);
-    --btn-primary-color: #0d6efd;
-    --btn-secondary-color: #6c757d;
+  --primary-color: rgb(41, 123, 129);
+  --secondary-color: rgb(77, 99, 95);
+  --ternary-color: rgb(3, 64, 90);
+  --color-nav-link: white;
+  --color-nav-link-hover: rgb(187, 187, 187);
+  --color-backgroud: rgb(236, 236, 236);
+  --color-img-backgroud: rgb(59, 146, 184);
+  --color-background-create-user: rgb(217, 217, 217);
+  --btn-primary-color: #0d6efd;
+  --btn-secondary-color: #6c757d;
+  --btn-hover-color: rgb(1, 35, 49);
+  /* Color stratup */
+  --btn-active-color-startup: #2c9cff;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif !important;
-    background-color: var(--color-backgroud);
+  font-family: Arial, Helvetica, sans-serif !important;
+  background-color: white;
 }
 
+body img {
+  display: inline;
+}
+
+/* NAVBAR */
+
 .nav-color {
-    background-color: var(--primary-color) !important;
+  background-color: var(--primary-color) !important;
 }
 
 .nav-link-logo {
-    color: var(--color-nav-link) !important;
+  color: var(--color-nav-link) !important;
 }
 
 .nav-link {
-    margin-left: 15px;
-    margin-right: 15px;
-    color: var(--color-nav-link) !important;
-    transition: 0.3s;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: var(--color-nav-link) !important;
+  transition: 0.3s;
 }
 
 .nav-link:hover {
-    transition: 0.3s;
-    color: var(--color-nav-link-hover) !important;
+  transition: 0.3s;
+  color: var(--color-nav-link-hover) !important;
 }
 
+/* X NAVBAR X */
+
+/* HOME */
+
 #container-home {
-    margin-top: 75px;
-    margin-bottom: 20px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+#logo-angel-invest {
+  display: inline;
+  width: 500px;
 }
 
 #home-box {
-    text-align: center;
+  text-align: center;
 }
 
 #home-text {
-    padding-left: 75px;
-    padding-right: 75px;
+  margin-top: -30px;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 #row-startups {
-    background-color: white;
+  background-color: white;
 }
 
 #row-cards-startups {
-    background-color: var(--secondary-color);
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
 }
 
 .card-img-top {
-    height: 150px;
+  height: 200px;
 }
 
 .card-home {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 0px;
 }
 
 .card-home .titles-pitch {
-    position: relative;
-    bottom: 40px;
-    margin-bottom: -30px;
+  position: relative;
+  bottom: 40px;
+  margin-bottom: -30px;
+}
+
+.qtd-investor {
+  background-color: yellow;
+  padding: 4px;
 }
 
 .card-home .title-startup {
-    font-size: 24px;
-    padding-left: 13px;
+  color: white;
+  font-size: 24px;
+  padding-left: 13px;
 }
 
 .card-home .name-startup {
-    padding-left: 80px;
+  padding-left: 110px;
 }
 
 .card-home .area-startup {
-    position: relative;
-    margin-top: -22px;
-    top: 35px;
-    text-align: right;
-    padding-right: 15px;
+  margin-top: -22px;
+  position: relative;
+  top: 40px;
 }
 
 .card-home .area-startup .span-area-startup {
-    background-color: green;
+  padding: 4px;
+  background-color: green;
 } 
 
 .img-logo {
-    width: 100px;
+  width: 100px;
 }
 
+/* X HOME X */
+
+/* CADASTRO */
+
 #colum-img {
-    text-align: center;
+  text-align: center;
 }
 
 #img-illustrative {
-    background-color: var(--color-img-backgroud);
-    border-radius: 50% !important;
-    padding: 10px;
-    margin-top: -75px;
+  display: inline;
+  background-color: var(--color-img-backgroud);
+  border-radius: 50% !important;
+  padding: 10px;
+  height: 300px;
+  width: 300px;
+  margin-top: -75px;
 }
 
 #top-img-div {
-    height: 150px;
-    width: 100%;
-    background-color: var(--ternary-color);
+  height: 150px;
+  width: 100%;
+  background-color: var(--ternary-color);
 }
 
 #bottom-img-div {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 27%;
-    background-color: var(--color-background-create-user);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 75%;
+  background-color: var(--color-background-create-user);
 }
 
 #btn-div {
-    text-align: center !important;
-    align-content: center !important;
-    align-items: center !important;
-    justify-content: center !important;
+  text-align: center !important;
+  align-content: center !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
-#btn-div .btn {
-    background-color: white;
+.btn-outline-investidor-empreendedor {
+  color: #6c757d;
+  background-color: #fff;
+  border-color: #6c757d;
+}
+
+.btn-outline-investidor-empreendedor:hover {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-check:focus + .btn-outline-investidor-empreendedor, .btn-outline-investidor-empreendedor:focus {
+  color: #0d6efd;
+  background-color: #f0f6ff;
+  border-color: #0d6efd;
+  font-weight: bold;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
+}
+
+button.selected{
+  color: #0d6efd;
+  background-color: #f0f6ff;
+  border-color: #0d6efd;
+  font-weight: bold;
+}
+
+.btn-outline-investidor-empreendedor:target {
+  color: #0d6efd;
+  background-color: #f0f6ff;
+  border-color: #0d6efd;
+  font-weight: bold;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
+}
+
+.btn-check:checked + .btn-outline-investidor-empreendedor, .btn-check:active + .btn-outline-investidor-empreendedor, .btn-outline-investidor-empreendedor:active, .btn-outline-investidor-empreendedor.active, .btn-outline-investidor-empreendedor.dropdown-toggle.show {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+.btn-check:checked + .btn-outline-investidor-empreendedor:focus, .btn-check:active + .btn-outline-investidor-empreendedor:focus, .btn-outline-investidor-empreendedor:active:focus, .btn-outline-investidor-empreendedor.active:focus, .btn-outline-investidor-empreendedor.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
+}
+.btn-outline-investidor-empreendedor:disabled, .btn-outline-investidor-empreendedor.disabled {
+  color: #0d6efd;
+  background-color: transparent;
 }
 
 #btn-div .btn-outline-primary:hover {
-    background-color: var(--btn-primary-color);
+  background-color: var(--btn-primary-color);
 }
 
 #btn-div .btn-outline-secondary:hover {
-    background-color: var(--btn-secondary-color);
+  background-color: var(--btn-secondary-color);
 }
 
 #btn-div .input-group {
-    position: relative;
-    display: inline;
-    flex-wrap: wrap;
-    align-items: stretch;
-    width: 100%;
+  position: relative;
+  display: inline;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
 }
 
 #form-registration {
-    padding: 20px;
-    padding-bottom: 0px;
+  padding: 20px;
+  padding-bottom: 0px;
 }
 
 #password-minimo {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 #bottom-img {
-    height: 80px;
-    background-color: var( --color-background-create-user);
+  height: 80px;
+  background-color: var( --color-background-create-user);
 }
 
 #bottom-form {
-    height: 80px;
-    background-color: var(--ternary-color);
+  height: 80px;
+  background-color: var(--ternary-color);
+}
+
+.bottom-form {
+  height: 100px;
+  width: 104%;
+  margin-top: 15px;
+  margin-bottom: -17px;
+  background-color: var(--ternary-color);
 }
 
 .card-register {
-    border-radius: 0px;
-    padding-right: 11px;
-    padding-left: 11px;
+  border-radius: 0px;
+  padding-right: 11px;
+  padding-left: 11px;
 }
 
 #input-profile-photo {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: var(--color-background-create-user);
-    transition: 0.3s;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--color-background-create-user);
+  transition: 0.3s;
 }
 
 #input-profile-photo:hover {
-    background-color: rgb(184, 184, 184);
-    cursor: pointer;
-    transition: 0.3s;
+  background-color: rgb(184, 184, 184);
+  cursor: pointer;
+  transition: 0.3s;
 }
 
+#img-input-video {
+  width: 200px;
+  height: 100px;
+}
+
+#input-profile-photo-retangular {
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+  background-color: var(--color-background-create-user);
+  transition: 0.3s;
+}
+
+#input-profile-photo-retangular:hover {
+  width: 200px;
+  height: 100px;
+  background-color: var(--color-background-create-user);
+  transition: 0.3s;
+}
+
+.card-click {
+  cursor: pointer;
+}
+
+/* X CADASTRO X */
+
+/* SHOW PROPOSTA */
+
+#btn-voltar {
+  position: relative;
+  top: 80px;
+  left: 30px;
+  margin-top: -30px;
+}
+
+#video-proposta {
+  margin-top: -25px;
+}
+
+#span-area-proposta-startup {
+  padding: 5px;
+}
+
+.documentos {
+  display: inline-block;
+  background-color: #c4c4c4;
+  padding: 4px;
+  margin: -3px;
+}
+
+/* X SHOW PROPOSTA X */
+
+/* CADASTRO DE STARTUP */
+
+.card {
+  --tw-bg-opacity: 1;
+  background-color: rgb(238 238 238 / var(--tw-bg-opacity));
+}
+
+.card-feature {
+  border-radius: 0px;
+}
+
+.card-feature .col-card {
+  position: relative;
+}
+
+.card-feature #bottom-form-startup {
+  background-color: var(--ternary-color);
+  height: 75px;
+}
+
+.card-feature .div-checks {
+  background-color: #eeeeee;
+}
+
+.card-feature .div-form {
+  background-color: #f3f3f3;
+  margin-top: -15px;
+  margin-bottom: -15px;
+  margin-right: 0px;
+  padding-right: 15px;
+  font-size: 14px;
+}
+
+.card-feature .card-title {
+  font-weight: bolder;
+}
+
+.card-feature .checks {
+  color: #6c757d;
+}
+
+.card-feature .btn-numeral {
+  font-weight: bolder;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  padding: 5px 9px 5px 9px;
+  border: #6c757d85 solid 1px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.card-feature .active {
+  color: #2c9cff;
+  cursor: pointer;
+}
+
+.card-feature .active .btn-numeral {
+  border: var(--btn-active-color-startup) solid 2px;
+  color: var(--btn-active-color-startup);
+  cursor: pointer;
+}
+
+.card-feature .step-form:hover {
+  color: var(--ternary-color);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card-feature .step-form:hover > .btn-numeral {
+  border: var(--ternary-color) solid 2px;
+  color: var(--ternary-color);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card-feature .check-step-numeral {
+  width: 32px;
+  height: 32px;
+  padding: -5px;
+}
+
+/* X CADASTRO DE STARTUP X */
+
+/* INDEX PROPOSTA */
+
+.titulo-pag {
+  border-bottom: black solid 2px;
+  padding-left: 20px;
+}
+
+.btn-default {
+  background-color: #296781;
+}
+
+.btn-padding {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.border {
+  border-radius: 10px;
+}
+
+.btn-default:hover {
+  background-color: var(--ternary-color);
+}
+
+.btn-default:focus {
+  background-color: var(--ternary-color);
+}
+
+.span-btn-add {
+  position: relative;
+  bottom: 5px;
+}
+
+.index-proposta .titles-pitch .title-startup {
+  font-size: 18px;
+}
+
+/* X INDEX PROPOSTA X */
+
+/* FOOTER */
+
 footer {
-    background-color: var(--primary-color);
-    margin-top: 70px;
+  background-color: var(--primary-color);
+  margin-top: 70px;
 }
 
 .logo {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #logo-footer {
-    width: 200px;
+  padding-top: 25px;
+  width: 150px;
+  height: auto;
 }
 
 #logo-ufape {
-    height: 80px;
+  height: 80px;
 }
 
-/* .teste {
-    width: 200px;
-    height: 200px;
-    background-color: red;
+.btn-color-dafault {
+  background-color: var(--ternary-color);
+  border-color: var(--ternary-color);
 }
 
-#caixa {
-    margin: 20px;
-    padding: 20px;
-} */
+.btn-color-dafault:hover {
+  background-color: var(--btn-hover-color);
+  border-color: var(--btn-hover-color);
+}
+
+.btn-color-dafault:focus {
+  background-color: var(--btn-hover-color);
+  border-color: var(--btn-hover-color);
+  box-shadow: 0 0 0 0.2rem var(--btn-hover-color);
+}
+
+label {
+  font-weight: 600;
+}
+
+#text-bnt-users {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.text-users {
+  font-size: 18px;
+}
+
+/* X FOOTER X */
