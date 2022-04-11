@@ -80,7 +80,7 @@ body img {
 }
 
 .card-img-top {
-  height: 150px;
+  height: 200px;
 }
 
 .card-home {
@@ -101,6 +101,7 @@ body img {
 }
 
 .card-home .title-startup {
+  color: white;
   font-size: 24px;
   padding-left: 13px;
 }
@@ -245,6 +246,14 @@ button.selected{
   background-color: var(--ternary-color);
 }
 
+.bottom-form {
+  height: 100px;
+  width: 104%;
+  margin-top: 15px;
+  margin-bottom: -17px;
+  background-color: var(--ternary-color);
+}
+
 .card-register {
   border-radius: 0px;
   padding-right: 11px;
@@ -263,6 +272,30 @@ button.selected{
   background-color: rgb(184, 184, 184);
   cursor: pointer;
   transition: 0.3s;
+}
+
+#img-input-video {
+  width: 200px;
+  height: 100px;
+}
+
+#input-profile-photo-retangular {
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+  background-color: var(--color-background-create-user);
+  transition: 0.3s;
+}
+
+#input-profile-photo-retangular:hover {
+  width: 200px;
+  height: 100px;
+  background-color: var(--color-background-create-user);
+  transition: 0.3s;
+}
+
+.card-click {
+  cursor: pointer;
 }
 
 /* X CADASTRO X */
@@ -295,7 +328,8 @@ button.selected{
   background-color: #f3f3f3;
   margin-top: -15px;
   margin-bottom: -15px;
-  padding-right: 10px;
+  margin-right: 0px;
+  padding-right: 15px;
   font-size: 14px;
 }
 
@@ -349,6 +383,45 @@ button.selected{
 }
 
 /* X CADASTRO DE STARTUP X */
+
+/* INDEX PROPOSTA */
+
+.titulo-pag {
+  border-bottom: black solid 2px;
+  padding-left: 20px;
+}
+
+.btn-default {
+  background-color: #296781;
+}
+
+.btn-padding {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.border {
+  border-radius: 10px;
+}
+
+.btn-default:hover {
+  background-color: var(--ternary-color);
+}
+
+.btn-default:focus {
+  background-color: var(--ternary-color);
+}
+
+.span-btn-add {
+  position: relative;
+  bottom: 5px;
+}
+
+.index-proposta .titles-pitch .title-startup {
+  font-size: 18px;
+}
+
+/* X INDEX PROPOSTA X */
 
 /* FOOTER */
 
