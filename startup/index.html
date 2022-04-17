@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="../bootstrap-5.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="../jquery/jquery-3.6.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light nav-color">
+      <div class="container">
+          <a class="navbar-brand nav-link-logo" href="#">
+              <img class="img-logo" src="../img/angelInvestBrancoRecorte.png" alt="Logo da angel invest">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Investidores-anjo</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Contato</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Entrar</a>
+              </li>
+          </ul>
+          </div>
+      </div>
+  </nav>
+
+  <div class="container index-proposta" style="margin-top: 50px; padding-bottom: 100px;">
+    <div class="row titulo-pag">
+        <div class="col-md-6">
+            <h4>Minhas startups </h4>
+        </div>
+        <div class="col-md-6" style="text-align: right;">
+            <span class="span-btn-add">
+              <button class="btn btn-success btn-default btn-padding border"> 
+                <img src="../img/bi_plus-circle.png" alt="">
+                <img src="../img/Vector.png" alt=""> 
+                Adicionar nova startup
+              </button>
+            </span>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="card card-startup mb-3">
+            <div class="card-header">
+              <div class="row">
+                <div class="col-md-5" style="text-align: center;">
+                  <img src="../img/empresa-logo.svg" alt="Logo startup">
+                </div>
+                <div class="col-md-7">
+                  <div class="row mt-2">
+                    <div class="col-md-12">
+                      <h5>Nome da startup</h5>
+                      <span class="categoria">Software</span>
+                    </div>
+                    <div class="col-md-12">
+                      <span class="text-startup">email_example@example.com</span>
+                    </div>
+                    <div class="col-md-12">
+                      <span class="text-startup">(87) 99999-9999</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-10">
+                  Propostas
+                </div>
+                <div class="col-md-2" style="text-align: right;">
+                  <a class="arrow-collapse" data-bs-toggle="collapse" href="#collapse_propostas" role="button" aria-expanded="false" aria-controls="collapse_propostas">
+                    <img class="arrow-down" src="../img/arrow-down.svg" alt="Icone exibir proposta">
+                  </a>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col-md-12">
+                  <div class="collapse" id="collapse_propostas">
+                    <div class="card card-body mb-3">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <h6>Nome do pitch</h6>
+                          <span class="text-proposta"><img class="icon" src="../img/calendar.svg" alt="Ícone de calendario"> Lances durande: <b>06/04 a 28/04</b></span>
+                          <span class="text-proposta"><img class="icon" src="../img/preco.svg" alt="Ícone de lance mínimo"> Lance mínimo: <b>R$ 8.000,00</b></span>
+                        </div>
+                        <div class="col-md-4" style="text-align: center;">
+                          <div class="row">
+                            <img class="icon-investidor" src="../img/investidor-preto.png" alt="Ícone do investidor">
+                          </div>
+                          <div class="row">
+                            <span class="text-proposta">10 investidores</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-startup mb-3">
+            <div class="card-header">
+              <div class="row">
+                <div class="col-md-5" style="text-align: center;">
+                  <img src="../img/empresa-logo.svg" alt="Logo startup">
+                </div>
+                <div class="col-md-7">
+                  <div class="row mt-2">
+                    <div class="col-md-12">
+                      <h5>Nome da startup</h5>
+                      <span class="categoria">Software</span>
+                    </div>
+                    <div class="col-md-12">
+                      <span class="text-startup">email_example@example.com</span>
+                    </div>
+                    <div class="col-md-12">
+                      <span class="text-startup">(87) 99999-9999</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-10">
+                  Propostas
+                </div>
+                <div class="col-md-2" style="text-align: right;">
+                  <a class="arrow-collapse" data-bs-toggle="collapse" href="#collapse_propostas" role="button" aria-expanded="false" aria-controls="collapse_propostas">
+                    <img class="arrow-down" src="../img/arrow-down.svg" alt="Icone exibir proposta">
+                  </a>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col-md-12">
+                  <div class="collapse" id="collapse_propostas">
+                    <div class="card card-body mb-3">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <h6>Nome do pitch</h6>
+                          <span class="text-proposta"><img class="icon" src="../img/calendar.svg" alt="Ícone de calendario"> Lances durande: <b>06/04 a 28/04</b></span>
+                          <span class="text-proposta"><img class="icon" src="../img/preco.svg" alt="Ícone de lance mínimo"> Lance mínimo: <b>R$ 8.000,00</b></span>
+                        </div>
+                        <div class="col-md-4" style="text-align: center;">
+                          <div class="row">
+                            <img class="icon-investidor" src="../img/investidor-preto.png" alt="Ícone do investidor">
+                          </div>
+                          <div class="row">
+                            <span class="text-proposta">10 investidores</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-startup mb-3">
+            <div class="card-header">
+              <div class="row">
+                <div class="col-md-5" style="text-align: center;">
+                  <img src="../img/empresa-logo.svg" alt="Logo startup">
+                </div>
+                <div class="col-md-7">
+                  <div class="row mt-2">
+                    <div class="col-md-12">
+                      <h5>Nome da startup</h5>
+                      <span class="categoria">Software</span>
+                    </div>
+                    <div class="col-md-12">
+                      <span class="text-startup">email_example@example.com</span>
+                    </div>
+                    <div class="col-md-12">
+                      <span class="text-startup">(87) 99999-9999</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-10">
+                  Propostas
+                </div>
+                <div class="col-md-2" style="text-align: right;">
+                  <a class="arrow-collapse" data-bs-toggle="collapse" href="#collapse_propostas" role="button" aria-expanded="false" aria-controls="collapse_propostas">
+                    <img class="arrow-down" src="../img/arrow-down.svg" alt="Icone exibir proposta">
+                  </a>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col-md-12">
+                  <div class="collapse" id="collapse_propostas">
+                    <div class="card card-body mb-3">
+                      <div class="row">
+                        <div class="col-md-8">
+                          <h6>Nome do pitch</h6>
+                          <span class="text-proposta"><img class="icon" src="../img/calendar.svg" alt="Ícone de calendario"> Lances durande: <b>06/04 a 28/04</b></span>
+                          <span class="text-proposta"><img class="icon" src="../img/preco.svg" alt="Ícone de lance mínimo"> Lance mínimo: <b>R$ 8.000,00</b></span>
+                        </div>
+                        <div class="col-md-4" style="text-align: center;">
+                          <div class="row">
+                            <img class="icon-investidor" src="../img/investidor-preto.png" alt="Ícone do investidor">
+                          </div>
+                          <div class="row">
+                            <span class="text-proposta">10 investidores</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>   
+  </div> 
+
+<footer>
+    <div class="container">
+        <div class="row" style="text-align: center;">
+            <div class="col-md-4">
+                <img id="logo-footer" class="logo" src="../img/angelInvestBrancoRecorte.png" alt="Logo angel invest">
+            </div>
+            <div class="col-md-4 logo">
+                <div class="row">
+                    <div class="col-md-12" style="color: white;">
+                        Desenvolvido por:
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <img id="logo-ufape" src="../img/logo_ufape_blue.png" alt="Logo da UFAPE">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 logo">
+                <div class="row">
+                    <div class="col-md-12" style="color: white;">
+                        Redes sociais:
+                    </div>
+                </div>
+                <div class="row logo" style="margin-bottom: 0px;">
+                    <div class="col-md-3" style="text-align: right;"></div>
+                    <div class="col-md-2" style="text-align: right;">
+                        <img id="logo-instagram" src="../img/Icon awesome-instagram.svg" alt="Logo instagram">
+                    </div>
+                    <div class="col-md-2">
+                        <img id="logo-facebook" src="../img/Icon awesome-facebook.svg" alt="Logo facebook">
+                    </div>
+                    <div class="col-md-2" style="text-align: left;">
+                        <img id="logo-email" src="../img/Icon zocial-email-white.svg" alt="Logo email">
+                    </div>
+                    <div class="col-md-3" style="text-align: right;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+  $(document).ready(function() {
+    $('.arrow-collapse').click(function() {
+      var img = this.children[0];
+
+      if(this.ariaExpanded == "true") {
+        console.log('img/arrow-up.svg')
+        img.src = "../img/arrow-up.svg";
+      } else if (this.ariaExpanded == "false") {
+        console.log('img/arrow-down.svg')
+        img.src = "../img/arrow-down.svg";
+      }
+    });
+  });
+</script>
+</body>
